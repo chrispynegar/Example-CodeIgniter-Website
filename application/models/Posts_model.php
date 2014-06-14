@@ -96,6 +96,9 @@ class Posts_model extends MY_Model {
 			'where' => array(
 				array('deleted', 0)
 			),
+			'order_by' => array(
+				array('created', 'desc')
+			),
 			'paginate' => true,
 			'page' => $page
 		));
