@@ -9,7 +9,6 @@
  */
 var app = function() {
 	var obj = {
-		components: {},
 		el: {
 			confirm: $('.confirm'),
 			confirmModal: $('#confirm-modal')
