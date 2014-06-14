@@ -1,0 +1,32 @@
+.page-header {
+    margin: 0px 0 20px;
+}
+.page-header a,
+.page-header a:link,
+.page-header a:visited {
+	color: #666;
+}
+.page-header a:hover,
+.page-header a:focus {
+	color: #428bca;
+	text-decoration: none;
+}
+.sidebar > .item {
+	padding: 10px 0 30px;
+	border-bottom: 1px solid #ccc;
+}
+.sidebar > .item:last-child {
+	border-bottom: none;
+}
+.comments {
+	margin: 20px 0;
+	padding: 20px 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.comments > li img {
+	width: 100px;
+}
+.comments > li .media-body {
+	padding-left: 20px;
+}
